@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20220117 16:23:26.604" schemaversion="2" generator="Robot 4.1.3 (Python 2.7.16 on darwin)">
+<suite source="/Users/akhil_eppa/Documents/Projects/robot-practice/test3/test.robot" id="s1" name="Test">
+<test id="s1-t1" name="test1">
+<kw name="Create List" library="BuiltIn">
+<var>@{l}</var>
+<arg>${a}</arg>
+<arg>${b}</arg>
+<arg>${c}</arg>
+<doc>Returns a list containing given items.</doc>
+<msg timestamp="20220117 16:23:26.617" level="INFO">@{l} = [ 10 | 20 | 30 ]</msg>
+<status status="PASS" endtime="20220117 16:23:26.617" starttime="20220117 16:23:26.617"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>@{l}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" endtime="20220117 16:23:26.618" starttime="20220117 16:23:26.618"/>
+</kw>
+<status status="PASS" endtime="20220117 16:23:26.618" starttime="20220117 16:23:26.617"/>
+</test>
+<status status="PASS" endtime="20220117 16:23:26.618" starttime="20220117 16:23:26.605"/>
+</suite>
+<statistics>
+<total>
+<stat fail="0" skip="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" skip="0" id="s1" name="Test" pass="1">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
