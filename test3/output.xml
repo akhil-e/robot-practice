@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20220117 16:23:26.604" schemaversion="2" generator="Robot 4.1.3 (Python 2.7.16 on darwin)">
+<robot rpa="false" generated="20220117 16:26:50.074" schemaversion="2" generator="Robot 4.1.3 (Python 2.7.16 on darwin)">
 <suite source="/Users/akhil_eppa/Documents/Projects/robot-practice/test3/test.robot" id="s1" name="Test">
 <test id="s1-t1" name="test1">
 <kw name="Create List" library="BuiltIn">
 <var>@{l}</var>
 <arg>${a}</arg>
 <arg>${b}</arg>
-<arg>${c}</arg>
+<arg>${d}</arg>
 <doc>Returns a list containing given items.</doc>
-<msg timestamp="20220117 16:23:26.617" level="INFO">@{l} = [ 10 | 20 | 30 ]</msg>
-<status status="PASS" endtime="20220117 16:23:26.617" starttime="20220117 16:23:26.617"/>
+<msg timestamp="20220117 16:26:50.087" level="INFO">@{l} = [ 10 | 20 | 40 ]</msg>
+<status status="PASS" endtime="20220117 16:26:50.087" starttime="20220117 16:26:50.087"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>@{l}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" endtime="20220117 16:23:26.618" starttime="20220117 16:23:26.618"/>
+<status status="PASS" endtime="20220117 16:26:50.087" starttime="20220117 16:26:50.087"/>
 </kw>
-<status status="PASS" endtime="20220117 16:23:26.618" starttime="20220117 16:23:26.617"/>
+<status status="PASS" endtime="20220117 16:26:50.087" starttime="20220117 16:26:50.086"/>
 </test>
-<status status="PASS" endtime="20220117 16:23:26.618" starttime="20220117 16:23:26.605"/>
+<status status="PASS" endtime="20220117 16:26:50.088" starttime="20220117 16:26:50.075"/>
 </suite>
 <statistics>
 <total>
